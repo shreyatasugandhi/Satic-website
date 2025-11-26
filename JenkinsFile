@@ -11,7 +11,7 @@ pipeline {
     stage('Checkout Code') {
       steps {
         git branch: 'main',
-            url: 'gh repo clone shreyatasugandhi/Satic-website'
+            url: 'https://github.com/shreyatasugandhi/Satic-website.git'
       }
     }
 
